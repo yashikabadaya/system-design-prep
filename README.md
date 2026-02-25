@@ -14,7 +14,9 @@ STEPS TO TAKE IN DESIGNING SYSTEM:
    
 
 Clarify with your interviewer if you should do back-of-the-envelope calculations 
+
 (2) ESTIMATIONS [5 min]
+
         (1) Throughput (QPS for read and write queries) -- How many requests would we handle per sec? 
         (2) Latency expected from the system (for read and write queries)
         (3) Read/Write ratio
