@@ -11,6 +11,7 @@ STEPS TO TAKE IN DESIGNING SYSTEM:
         (4) How many will use
         (5) Usage patterns -- What facts are applicable? 
         (6) Assumptions - What assumptions would you make for user and the service?
+   
 
 Clarify with your interviewer if you should do back-of-the-envelope calculations 
 (2) ESTIMATIONS [5 min]
@@ -30,9 +31,11 @@ eg. If we 1M reqs/day -> 12 req/s
                15s video -> 10Mb size ; so 1M videos would take 1M * 10Mb -> 1Tb size
                 5yrs -> 2000 days
 
+
 (3) DESIGN GOALS OR NON-FUNCTIONAL REQUIREMENTS OR SLA OR SYSTEM GUARANTEES [5 min]
         (1) Latency and Throughput requirements
         (2) Consistency vs Availability  [Weak/strong/eventual => consistency | Failover/replication => availability]
+
 
 (4) HIGH LEVEL DESIGN [5-10 min]
         (1) APIs for Read/Write scenarios for crucial components -- An outline of all the high level components in a flow. Break down the entire system into individual main/key components,  Think about how the services can be broken down as decided in feature expectations
