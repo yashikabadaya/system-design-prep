@@ -30,8 +30,11 @@ Clarify with your interviewer if you should do back-of-the-envelope calculations
                 - Amount of data you want to store in disk/ssd
                 
 eg. If we 1M reqs/day -> 12 req/s
-    1B reqs/day ->12k req/s; If each machine can handle 1k req/s then we would need 12 load balancers or web servers.       
+
+    1B reqs/day ->12k req/s; If each machine can handle 1k req/s then we would need 12 load balancers or web servers. 
+    
     15s video -> 10Mb size ; so 1M videos would take 1M * 10Mb -> 1Tb size
+    
      5yrs -> 2000 days
 
 
