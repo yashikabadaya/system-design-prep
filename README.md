@@ -2,7 +2,9 @@
 
 
 STEPS TO TAKE IN DESIGNING SYSTEM:
+
 1) FEATURE EXPECTATIONS [5 min]
+
         (1) Use cases -- In terms of what will the user do, what will service do in return, Think about what your users need as features
         (2) Scenarios that will not be covered -- what service should not do 
         (3) Who will use
