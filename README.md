@@ -41,11 +41,15 @@ eg.
 
 
 (3) DESIGN GOALS OR NON-FUNCTIONAL REQUIREMENTS OR SLA OR SYSTEM GUARANTEES [5 min]
+
         (1) Latency and Throughput requirements
+        
         (2) Consistency vs Availability  [Weak/strong/eventual => consistency | Failover/replication => availability]
 
 
+
 (4) HIGH LEVEL DESIGN [5-10 min]
+
         (1) APIs for Read/Write scenarios for crucial components -- An outline of all the high level components in a flow. Break down the entire system into individual main/key components,  Think about how the services can be broken down as decided in feature expectations
         (2) Database schema
         (3) Basic algorithm
